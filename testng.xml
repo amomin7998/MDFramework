@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MY Automation Suite">
+  <test name="Chrome testing">
+  <parameter name="Browser" value="ch"></parameter>
+    <classes>
+      <class name="classTest.frameworkTEST"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Firefox testing">
+  <parameter name="Browser" value="ff"></parameter>
+    <classes>
+      <class name="classTest.frameworkTEST"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
